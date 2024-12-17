@@ -30,10 +30,10 @@ this is so that you can easily identify and use the returned values to make your
 
 <h2> How the 4 Fundamentals of OOP was implimented </h2>
 
-I was able to implement the core fundamentals of OOP by using
-    1. Inheritance (extends) where best prime example ko dito eh the pieces itself, each of them inheriting the methods from [piece.Java](http://piece.Java) get_all moves and captures combinations and also inheriting the game_array from the main game.<br>
-    2. Polymorphism (using the same move set but different implementation/logic form e.g rook and queen and king) As I have reused move sets to make prodcution be fast as possible with only changing minor variables in the code flow for the reused move set implemented to a similar piece behaviour like a queen to a king.<br>
-    3. Abstraction (where I converge everything unto a class that hides details e.g start game) I was not able to use an abstract class simply because I cannot instantiate it, and need din dapat lahat ng methods nung parent class meron si child class, although that is applicable sa [pieces.Java](http://pieces.Java) ko, there are unique methods that only a king can have, sa next feature ko sa determining all possible check tiles ganun, and all castling which is not implemented pa<br>
+I was able to implement the core fundamentals of OOP by using<br><br>
+        1. Inheritance (extends) where best prime example ko dito eh the pieces itself, each of them inheriting the methods from [piece.Java](http://piece.Java) get_all moves and captures combinations and also inheriting the game_array from the main game.<br><br>
+    2. Polymorphism (using the same move set but different implementation/logic form e.g rook and queen and king) As I have reused move sets to make prodcution be fast as possible with only changing minor variables in the code flow for the reused move set implemented to a similar piece behaviour like a queen to a king.<br><br>
+    3. Abstraction (where I converge everything unto a class that hides details e.g start game) I was not able to use an abstract class simply because I cannot instantiate it, and need din dapat lahat ng methods nung parent class meron si child class, although that is applicable sa [pieces.Java](http://pieces.Java) ko, there are unique methods that only a king can have, sa next feature ko sa determining all possible check tiles ganun, and all castling which is not implemented pa<br><br>
     4. Encapsulation (where you can only access/modify data using private modifer and protected) giving the data only be accessed by a class with permission, syempre the list of all possible combinations can only be accessed by the pieces itself. e.g rook, king queen where there are there only ones who can append to those lists.
 
 -----
